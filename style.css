@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background: linear-gradient(to right,rgb(26, 26, 84),rgb(52, 52, 128));
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 2rem 10rem;
+}
+
+.container h1
+{
+    font-family: 'Saira';
+    letter-spacing: 2px;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: whitesmoke;
+}
+.container h1 span
+{
+    color: rgb(29, 193, 103);
+}
+
+.line
+{
+    background-color: rgb(29, 193, 103);
+    height: 5px;
+    width: auto;
+    margin-bottom: 3rem;
+}
+
+.display
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgb(198, 196, 192);
+    border-radius: 20px;
+    margin-bottom: 3rem;
+}
+.display input
+{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-family: 'Dosis';
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.display input::placeholder
+{
+    color: black;
+    font-weight: 800;
+}
+.display img
+{
+    width: 5%;
+    cursor: pointer;
+}
+
+.container button
+{
+    padding: 0.5rem 2rem;
+    font-family: 'Saira';
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    margin: 0 2rem;
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(29, 193, 103);
+    color: black;
+    font-weight: bolder;
+}
+.container button i
+{
+    color: black;
+}
+.container button:hover
+{
+    background-color: rgb(22, 174, 91);
+}
